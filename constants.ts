@@ -48,12 +48,12 @@ export const SERVICES = [
 ];
 
 export const GALLERY_IMAGES = [
-  { src: 'https://picsum.photos/800/600?random=1', alt: 'Elegantes Tischgedeck' },
-  { src: 'https://picsum.photos/600/800?random=2', alt: 'Beleuchtete Tanzfläche' },
-  { src: 'https://picsum.photos/800/600?random=3', alt: 'Hochzeitsdekoration Gold' },
-  { src: 'https://picsum.photos/800/600?random=4', alt: 'Außenansicht bei Nacht' },
-  { src: 'https://picsum.photos/600/800?random=5', alt: 'Buffet Arrangement' },
-  { src: 'https://picsum.photos/800/600?random=6', alt: 'Brauttisch' },
+  { src: './images/3.PNG', alt: 'Elegantes Tischgedeck' },
+  { src: './images/4.PNG', alt: 'Beleuchtete Tanzfläche' },
+  { src: './images/5.PNG', alt: 'Hochzeitsdekoration Gold' },
+  { src: './images/6.PNG', alt: 'Außenansicht bei Nacht' },
+  { src: './images/7.PNG', alt: 'Buffet Arrangement' },
+  { src: './images/1.PNG', alt: 'Brauttisch' },
 ];
 
 export const CONTACT_INFO = {

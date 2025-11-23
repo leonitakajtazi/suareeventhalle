@@ -22,12 +22,23 @@ export const Navbar: React.FC = () => {
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
-        <a href="#home" className="text-2xl md:text-3xl font-serif font-bold tracking-widest text-white group">
-          SUARE<span className="text-gold-500">.</span>
-          <span className="block text-[10px] font-sans tracking-[0.3em] text-gray-400 group-hover:text-gold-500 transition-colors">
-            EVENTHALLE
-          </span>
-        </a>
+        <a href="#home" className="flex items-center space-x-2">
+  {/* Logo Image */}
+  <img
+    src="./images/logo.jpg" // vendos path-in e logos tënde këtu
+    alt="Suare Eventhalle Logo"
+    className="h-10 w-10 md:h-12 md:w-12 object-contain"
+  />
+  
+  {/* Logo Text */}
+  <div className="text-white font-serif font-bold tracking-widest">
+    SUARE<span className="text-gold-500">.</span>
+    <span className="block text-[10px] font-sans tracking-[0.3em] text-gray-400 md:group-hover:text-gold-500 transition-colors">
+      EVENTHALLE
+    </span>
+  </div>
+</a>
+
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-8">

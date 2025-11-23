@@ -12,12 +12,12 @@ export const Gallery: React.FC = () => {
       <div className="absolute top-0 right-0 w-1/3 h-1/3 bg-gold-500/5 blur-[100px] rounded-full pointer-events-none"></div>
 
       <div className="container mx-auto px-6 relative z-10">
-        <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
-          <div>
+        <div className="flex flex-col md:flex-row justify-between items-center md:items-end mb-16 gap-6">
+          <div className="text-center md:text-left">
             <h2 className="text-gold-500 text-sm font-bold tracking-[0.3em] uppercase mb-4">Impressionen</h2>
             <h3 className="text-4xl md:text-5xl font-serif text-white">Unsere Galerie</h3>
           </div>
-          <p className="text-gray-400 max-w-md text-sm md:text-base text-right md:text-left">
+          <p className="text-gray-400 max-w-md text-sm md:text-base text-center md:text-left">
             Werfen Sie einen Blick auf vergangene Veranstaltungen und lassen Sie sich von der Atmosphäre inspirieren.
           </p>
         </div>
